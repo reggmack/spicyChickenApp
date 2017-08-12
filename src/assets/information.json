@@ -1,0 +1,160 @@
+{
+    "items": [
+        {
+            "name": "Chicken",
+            "children": [
+                {
+                    "name": "On-the-Bone",
+                    "children": [
+                        {
+                            "name": "Breast Quarter",
+                            "information": "Pastrami pork belly ball tip andouille corned beef jerky shankle landjaeger. Chicken chuck porchetta picanha, ham brisket tenderloin venison meatloaf landjaeger jowl.",
+                            "price": "$6"
+                        },
+                        {
+                            "name": "Leg Quarter",
+                            "information": "Pork chop meatloaf rump, meatball shoulder turducken alcatra doner sausage capicola pork strip steak turkey cupim leberkas.",
+                            "price": "$5"
+                        },
+                        {
+                            "name": "Wings",
+                            "information": "Pork chop meatloaf rump, meatball shoulder turducken alcatra doner sausage capicola pork strip steak turkey cupim leberkas.",
+                            "price": "$5"
+                        }
+                    ]
+                },
+                {
+                    "name": "Boneless",
+                    "children": [
+                        {
+                            "name": "Boneless Breast",
+                            "information": "Pork chop meatloaf rump, meatball shoulder turducken alcatra doner sausage capicola pork strip steak turkey cupim leberkas.",
+                            "price": "$5"
+                        },
+                        {
+                            "name": "Tenders",
+                            "information": "Pork chop meatloaf rump, meatball shoulder turducken alcatra doner sausage capicola pork strip steak turkey cupim leberkas.",
+                            "price": "$5"
+                        }
+                    ]
+                }  
+            ]
+        },
+        {
+                    "name": "Pork",
+                    "children": [
+                        {
+                            "name": "Pork Chop",
+                            "information": "Pastrami ham hock ball tip, tongue ribeye chuck ham beef bresaola leberkas.",
+                            "price": "$5"
+                        }
+                    ]
+                },
+        {
+                    "name": "Seafood",
+                    "children": [
+                        {
+                            "name": "Catfish",
+                            "information": "Pastrami ham hock ball tip, tongue ribeye chuck ham beef bresaola leberkas.",
+                            "price": "$5.50"
+                        },
+                        {
+                            "name": "Whiting Fish",
+                            "information": "Pastrami ham hock ball tip, tongue ribeye chuck ham beef bresaola leberkas.",
+                            "price": "$5.50"
+                        },
+                        {
+                            "name": "Butterfly Shrimp (6)",
+                            "information": "Pastrami ham hock ball tip, tongue ribeye chuck ham beef bresaola leberkas.",
+                            "price": "$5.50"
+                        }
+                    ]
+                },
+        {
+            "name": "Sides",
+            "children": [
+                {
+                    "name": "Seasoned Fries",
+                    "information": " Landjaeger fatback shank frankfurter, tongue shoulder ham strip steak pancetta pork short loin corned beef short ribs biltong cow",
+                    "price": "$2"
+                },
+                {
+                    "name": "Cole Slaw",
+                    "information": "Pork chop pastrami landjaeger chuck brisket",
+                    "price": "$2"
+                },
+                {
+                    "name": "Green Beans",
+                    "information": "Pork chop pastrami landjaeger chuck brisket",
+                    "price": "$2"
+                },
+                {
+                    "name": "Potato Salad",
+                    "information": "Pork chop pastrami landjaeger chuck brisket",
+                    "price": "$2"
+                },
+                {
+                    "name": "Baked Beans",
+                    "information": "Pork chop pastrami landjaeger chuck brisket",
+                    "price": "$2"
+                },
+                {
+                    "name": "Fried Okra",
+                    "information": "Pork chop pastrami landjaeger chuck brisket",
+                    "price": "$2"
+                },
+                {
+                    "name": "Mac-and-Cheese",
+                    "information": "Pork chop pastrami landjaeger chuck brisket",
+                    "price": "$2"
+                }
+            ]
+        },
+        {
+            "name": "Desserts",
+            "children": [
+                {
+                    "name": "Key Lime Cake",
+                    "information": " Landjaeger fatback shank frankfurter, tongue shoulder ham strip steak pancetta pork short loin corned beef short ribs biltong cow",
+                    "price": "$2.50"
+                },
+                {
+                    "name": "Chocolate Cake",
+                    "information": "Pork chop pastrami landjaeger chuck brisket",
+                    "price": "$2.50"
+                },
+                {
+                    "name": "Chess Pie",
+                    "information": "Pork chop pastrami landjaeger chuck brisket",
+                    "price": "$2.50"
+                }
+            ]
+        },
+        {
+            "name": "Drinks",
+            "children": [
+                {
+                    "name": "Sodas",
+                    "information": " Landjaeger fatback shank frankfurter, tongue shoulder ham strip steak pancetta pork short loin corned beef short ribs biltong cow",
+                    "price": "$1.50"
+                },
+                {
+                    "name": "20 0z. Sweet Tea",
+                    "information": "Pork chop pastrami landjaeger chuck brisket",
+                    "price": "$1.25"
+                },
+                {
+                    "name": "Gallon Sweet Tea",
+                    "information": "Pork chop pastrami landjaeger chuck brisket",
+                    "price": "$5"
+                },
+                {
+                    "name": "Tea Refills",
+                    "information": "Pork chop pastrami landjaeger chuck brisket",
+                    "price": "$.50"
+                }
+                
+            ]
+        }
+    ]
+}

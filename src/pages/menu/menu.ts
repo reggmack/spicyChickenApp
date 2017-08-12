@@ -1,6 +1,9 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 
+import { Http } from '@angular/http';
+import 'rxjs/add/operator/map'
+
 /**
  * Generated class for the MenuPage page.
  *
@@ -14,12 +17,21 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
   templateUrl: 'menu.html',
 })
 export class MenuPage {
-
-  constructor(public navCtrl: NavController, public navParams: NavParams) {
+  information: any[];
+ 
+  constructor(public navCtrl: NavController, private http: Http) {
+    let localData = http.get('assets/information.json').map(res => res.json().items);
+    localData.subscribe(data => {
+      this.information = data;
+    })
   }
-
-  ionViewDidLoad() {
-    console.log('ionViewDidLoad MenuPage');
+ 
+  toggleSection(i) {
+    this.information[i].open = !this.information[i].open;
   }
-
+ 
+  toggleItem(i, j) {
+    this.information[i].children[j].open = !this.information[i].children[j].open;
+  }
+ 
 }
