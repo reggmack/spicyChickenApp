@@ -11,6 +11,10 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 
 import { CloudSettings, CloudModule } from '@ionic/cloud-angular';
 
+import { DealsPage } from '../pages/deals/deals';
+import { MenuPage } from '../pages/menu/menu';
+import { TabsPage } from '../pages/tabs/tabs';
+
 const cloudSettings: CloudSettings = {
   'core': {
     'app_id': '75060ac2'
@@ -21,7 +25,10 @@ const cloudSettings: CloudSettings = {
   declarations: [
     MyApp,
     HomePage,
-    ListPage
+    ListPage,
+    DealsPage,
+    MenuPage,
+    TabsPage
   ],
   imports: [
     BrowserModule,
@@ -32,7 +39,10 @@ const cloudSettings: CloudSettings = {
   entryComponents: [
     MyApp,
     HomePage,
-    ListPage
+    ListPage,
+    DealsPage,
+    MenuPage,
+    TabsPage
   ],
   providers: [
     StatusBar,
