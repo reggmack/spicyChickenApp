@@ -1,7 +1,5 @@
 page-menu {
-    /* .list-header-md {
-        border: none;
-    } */
+    
     .label .label-md {
         text-align: center;
     }
@@ -34,4 +32,58 @@ page-menu {
     .list {
         margin-bottom: 4px;
     }
+
+
+
+    
+    
+    button.item.item-block.item-md.section {
+        background-image: url("../../assets/img/wood_1.png");
+        background-repeat: repeat;
+        margin-bottom: 0px;
+        color: #f4f4f4;
+        font-family: 'Bowlby';
+        font-size: 1.5em;
+        min-height: 3.75em;
+        border-bottom: 1px solid #444;
+    }
+
+    button.item.item-block.item-md.section-active {
+        background-image: url("../../assets/img/wood_1.png");
+        background-repeat: repeat;
+        color: #f4a01a;
+        margin-bottom: 0px;
+        font-family: 'Bowlby';
+        font-size: 1.625em;
+        min-height: 3.75em;
+        border-bottom: 2px solid #f4a01a;
+    }
+
+    button.child.item.item-block.item-md {
+        margin-bottom: 0px;
+    }
+
+    page-menu .section {
+        background: #fff;
+        color: #000;
+        margin-bottom: 0px;
+    }
+
+    page-menu list {
+        margin-bottom: 0px;
+    }
+
+    page-menu .child {
+        margin-bottom: 0px;
+}
+
+     .list-header-md {
+        border: none;
+        margin-bottom: 0px;
+    } 
+
+    ion-list.list.list-md {
+        margin-bottom: 0px;
+    }
+
 }
