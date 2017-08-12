@@ -86,4 +86,49 @@ page-menu {
         margin-bottom: 0px;
     }
 
+    ion-item.child-item.item.item-block.item-md {
+        border-bottom: 1px dotted #e3e3e3;
+        background-color: white;
+    }
+
+    /* SECOND LEVEL - Menu Item and Description */
+    .item-md h2 {
+        font-family: 'Bowlby';
+        font-size: 2em;
+        padding: 0 2em;
+        text-align: left;
+        /* color:#ee3e41; */
+        font-size: 1.5em;
+    }
+
+    ion-label p {
+        font-family: 'Skranji';
+        padding: 0 2em 0 3em;
+        text-align: left;
+    }
+
+    .item-md [item-left] {
+        max-width: 25%;
+        border: 0;
+        margin: 0;
+    }
+
+    .item-md .item-button {
+        padding: 0 0.6em;
+        height: 25px;
+        font-size: 1.2em;
+        font-family: 'Skranji-bold';
+        color: #ee3e41;
+    }
+
+    .button-outline-md {
+        border: none;
+    }
+
+    .button-outline-md:hover:not(.disable-hover) {
+        background-color: transparent;
+    }   
+
+    
+
 }
