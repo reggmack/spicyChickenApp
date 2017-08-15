@@ -85,37 +85,44 @@
                 {
                     "name": "Seasoned Fries",
                     "information": " Landjaeger fatback shank frankfurter, tongue shoulder ham strip steak pancetta pork short loin corned beef short ribs biltong cow",
-                    "price": "$2"
+                    "price": "$2",
+                    "image": "AdobeStock_88936309_Preview-fries.jpeg"
                 },
                 {
                     "name": "Cole Slaw",
                     "information": "Pork chop pastrami landjaeger chuck brisket",
-                    "price": "$2"
+                    "price": "$2",
+                    "image": "AdobeStock_88936309_Preview-fries.jpeg"
                 },
                 {
                     "name": "Green Beans",
                     "information": "Pork chop pastrami landjaeger chuck brisket",
-                    "price": "$2"
+                    "price": "$2",
+                    "image": "AdobeStock_88936309_Preview-fries.jpeg"
                 },
                 {
                     "name": "Potato Salad",
                     "information": "Pork chop pastrami landjaeger chuck brisket",
-                    "price": "$2"
+                    "price": "$2",
+                    "image": "AdobeStock_88936309_Preview-fries.jpeg"
                 },
                 {
                     "name": "Baked Beans",
                     "information": "Pork chop pastrami landjaeger chuck brisket",
-                    "price": "$2"
+                    "price": "$2",
+                    "image": "AdobeStock_88936309_Preview-fries.jpeg"
                 },
                 {
                     "name": "Fried Okra",
                     "information": "Pork chop pastrami landjaeger chuck brisket",
-                    "price": "$2"
+                    "price": "$2",
+                    "image": "AdobeStock_88936309_Preview-fries.jpeg"
                 },
                 {
                     "name": "Mac-and-Cheese",
                     "information": "Pork chop pastrami landjaeger chuck brisket",
-                    "price": "$2"
+                    "price": "$2",
+                    "image": "AdobeStock_88936309_Preview-fries.jpeg"
                 }
             ]
         },
@@ -125,17 +132,20 @@
                 {
                     "name": "Key Lime Cake",
                     "information": " Landjaeger fatback shank frankfurter, tongue shoulder ham strip steak pancetta pork short loin corned beef short ribs biltong cow",
-                    "price": "$2.50"
+                    "price": "$2.50",
+                    "image": "AdobeStock_65235943_Preview-cake.jpeg"
                 },
                 {
                     "name": "Chocolate Cake",
                     "information": "Pork chop pastrami landjaeger chuck brisket",
-                    "price": "$2.50"
+                    "price": "$2.50",
+                    "image": "AdobeStock_65235943_Preview-cake.jpeg"
                 },
                 {
                     "name": "Chess Pie",
                     "information": "Pork chop pastrami landjaeger chuck brisket",
-                    "price": "$2.50"
+                    "price": "$2.50",
+                    "image": "AdobeStock_65235943_Preview-cake.jpeg"
                 }
             ]
         },
@@ -145,22 +155,26 @@
                 {
                     "name": "Sodas",
                     "information": " Landjaeger fatback shank frankfurter, tongue shoulder ham strip steak pancetta pork short loin corned beef short ribs biltong cow",
-                    "price": "$1.50"
+                    "price": "$1.50",
+                    "image": "AdobeStock_65824112_Preview-tea.jpeg"
                 },
                 {
                     "name": "20 0z. Sweet Tea",
                     "information": "Pork chop pastrami landjaeger chuck brisket",
-                    "price": "$1.25"
+                    "price": "$1.25",
+                    "image": "AdobeStock_65824112_Preview-tea.jpeg"
                 },
                 {
                     "name": "Gallon Sweet Tea",
                     "information": "Pork chop pastrami landjaeger chuck brisket",
-                    "price": "$5"
+                    "price": "$5",
+                    "image": "AdobeStock_65824112_Preview-tea.jpeg"
                 },
                 {
                     "name": "Tea Refills",
                     "information": "Pork chop pastrami landjaeger chuck brisket",
-                    "price": "$.50"
+                    "price": "$.50",
+                    "image": "AdobeStock_65824112_Preview-tea.jpeg"
                 }
                 
             ]

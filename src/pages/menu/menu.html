@@ -52,7 +52,7 @@
  
           <!-- Direct Add Button as Fallback -->
           <ion-item *ngIf="!child.children" ion-item detail-none class="child-item" text-wrap>
-            <img item-left src="../../../../assets/img/{{ child.image }}">
+            <img item-left src="img/{{ child.image }}">
             <h2>{{ child.name }}</h2>
             <p text-lowercase>{{ child.information }}</p>
             <button ion-button outline item-end (click)="buyItem(child)">{{ child.price }}</button>
@@ -61,7 +61,7 @@
           <ion-list *ngIf="child.children && child.open">
             <!-- Third Level -->
             <ion-item *ngFor="let item of child.children; let k = index" detail-none class="child-item" text-wrap>
-              <img item-left src="../../../../assets/img/{{ item.image }}">
+              <img item-left src="img/{{ item.image }}">
               <h2>{{ item.name }}</h2>
               <p text-lowercase>{{ item.information }}</p>
               <!-- Direct Add Button -->
