@@ -38,7 +38,7 @@ page-menu {
     
     
     button.item.item-block.item-md.section {
-        background-image: url("/img/wood_1.png");
+        background-image: url("../img/dark_wood_@2X.png");
         background-repeat: repeat;
         margin-bottom: 0px;
         color: #f4f4f4;
@@ -47,10 +47,13 @@ page-menu {
         min-height: 3.75em;
         border-bottom: 1px solid #444;
         background-color: #000;
+        -webkit-background-size: 100% 100%;
+        -moz-background-size: 100% 100%;
+        background-size: 100% 100%;
     }
 
     button.item.item-block.item-md.section-active {
-        background-image: url("/img/wood_1.png");
+        background-image: url("../img/dark_wood_@2X.png");
         background-repeat: repeat;
         color: #f4a01a;
         margin-bottom: 0px;
@@ -59,6 +62,9 @@ page-menu {
         min-height: 3.75em;
         border-bottom: 2px solid #f4a01a;
         background-color: #000;
+        -webkit-background-size: 100% 100%;
+        -moz-background-size: 100% 100%;
+        background-size: 100% 100%;
     }
 
     button.child.item.item-block.item-md {
