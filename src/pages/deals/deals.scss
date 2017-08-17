@@ -1,9 +1,116 @@
 page-deals {
     .swiper-slide img {
-    max-height: 470px;
+    max-height: 215px;
     }
 
     ion-slide h1 {
-        font-family: 'Bowlby';font-size: 2em;
+        font-family: 'Bowlby';
+        font-size:xx-large;
     }
+    .content-md {
+        background-color: #fff;
+    }
+
+    // Spice Level Blocks
+    .col {
+        margin: 0 .1em;
+        color: white;
+        /* text-shadow: .5px 1px 1px #111; */
+    }
+    ion-col.mild {
+        background: #70cd28;
+    }
+
+    ion-col.medium {
+        background: #f3cb3f;
+    }
+
+    ion-col.hot {
+        background: #eea53b;
+    }
+
+    ion-col.x-hot {
+        background: #e31d38;
+    }
+
+    ion-col.xx-hot {
+        background: #b5372a;
+    }
+
+    ion-col.xxx-hot {
+        background: #79251c;
+    }
+
+    #spice-level-grid {
+        font-size: .6em;
+        border-top:1px dotted gainsboro;
+        margin: 0 0 0 0;
+    }
+
+    #spice-level-hdr {
+        justify-content: center;
+    }
+
+    #spice-level-hdr p {
+        margin: 2px 0 7px 0;
+        /* font-family: 'Skranji'; */
+    }
+
+    ion-slide h4 {
+        margin: 0;
+        /* font-family: 'Skranji'; */
+        color:#000;
+        text-align: left;
+    }
+
+    h3.solo-item-price {
+        text-align: left;
+        font-family: 'Bowlby';
+        font-size: 1.625em;
+        border-bottom: 3px solid #e31d38;
+        margin: .35em 0 0 0;
+    }
+
+    /* p.item-desc {
+        text-align: left;
+        font-size: .8125em;
+        border-bottom: 1px dotted gainsboro;
+        padding: 0 0 .75em 0;
+    } */
+
+    ion-col.price-with-side.col h4 {
+        text-align: right; 
+        font-family: 'Bowlby';
+        font-size: 1.125em;
+    }
+
+    .bowlby {
+        font-family: 'Bowlby';
+    }
+    .skranji {
+        font-family: 'Skranji';
+    }
+    .spicy-red {
+        color: #e31d38;
+    }
+    .spicy-orange {
+        color: #f4a01a;
+    }
+
+    .combo-prices {
+        /* border-top: 1px dotted lightgray; */
+        border-bottom: 1px dotted lightgray;
+        margin: .2em 0 0 0;
+        padding: .25em 0 0 0;
+    }
+
+    h3 sup {
+        font-size: .625em;
+    }
+
+    h4 sup {
+        font-size: .6125em;
+    }
+
+    
 }

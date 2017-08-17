@@ -1,3 +1,40 @@
 page-tabs {
+    /*  Tabs Bar Background  */
+    .tabs-md .tabbar {
+         background: #000; 
+    }
+
+    /*  Individual Tabs  */
+    .tabs-md .tab-button {
+        min-height: 5.6rem;
+        font-weight: normal;
+        color: white;/* rgba(60, 60, 60, 0.7) */
+        padding: 0;
+        border-radius: 4px 4px 0 0;
+        background: #181818;
+        margin: 0 .2em;
+
+        background: -webkit-linear-gradient(#353535, #000); /* For Safari 5.1 to 6.0 */
+        background: -o-linear-gradient(#353535, #000); /* For Opera 11.1 to 12.0 */
+        background: -moz-linear-gradient(#353535, #000); /* For Firefox 3.6 to 15 */
+        background: linear-gradient(#353535, #000); /* Standard syntax */
+
+        /* box-shadow: 1px -4px 7px rgba(255,240,0,.9); */
+    }
+    .tabs-md .tab-button[aria-selected=true] {
+        color: #f4a01a;
+        // box-shadow: 0px -4px 7px rgba(195, 217, 46, 0.6);
+        box-shadow: 0px -4px 9px rgba(244, 160, 26, 0.9);
+    }
+
+    /*  Tabs Icon  */
+    .tabs-md .tab-button .tab-button-icon {
+        color: white;
+        text-shadow: 1px 1px 1px #000;
+    }
+    .tabs-md .tab-button[aria-selected=true] .tab-button-icon {
+        color: #f4a01a;
+;
+    }
 
 }

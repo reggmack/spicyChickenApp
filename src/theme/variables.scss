@@ -21,7 +21,21 @@ $app-direction: ltr;
 // the Sass variables found in Ionic's source scss files.
 // To view all the possible Ionic variables, see:
 // http://ionicframework.com/docs/theming/overriding-ionic-variables/
-$toolbar-background:  #f4a01a !default;
+
+// Top Bar
+$toolbar-background:  #e31d38 !default;
+
+// Main Header
+.toolbar-md {
+    min-height: 48px;
+}
+
+// Whole App Background
+.content-md {
+    background-color: #000;
+}
+
+
 
 
 // Named Color Variables
@@ -39,7 +53,7 @@ $colors: (
   light:      #f4f4f4,
   dark:       #222,
 
-  spicy-red:  #ee3e41,
+  spicy-red:  #e31d38,
   spicy-yellow:  #ffde00,
   spicy-orange:  #f4a01a,
   spicy-green:  #c2d82d,

@@ -4,7 +4,8 @@ page-menu {
         text-align: center;
     }
     .accordion-list {
-        background: color($colors, light);
+        /* background: color($colors, light); */
+        background: #000;
         height: 100%;
     }
     .section {
@@ -45,7 +46,7 @@ page-menu {
         font-family: 'Bowlby';
         font-size: 1.5em;
         min-height: 3.75em;
-        border-bottom: 1px solid #444;
+        border-bottom: 1px solid rgba(255,255,255,.1);
         background-color: #000;
         -webkit-background-size: 100% 100%;
         -moz-background-size: 100% 100%;
@@ -60,7 +61,7 @@ page-menu {
         font-family: 'Bowlby';
         font-size: 1.625em;
         min-height: 3.75em;
-        border-bottom: 2px solid #f4a01a;
+        border-bottom: 3px solid #f4a01a;
         background-color: #000;
         -webkit-background-size: 100% 100%;
         -moz-background-size: 100% 100%;
@@ -100,43 +101,54 @@ page-menu {
     }
 
     /* SECOND LEVEL - Menu Item and Description */
+    
+    /*  Menu Main Category Header  */
     .item-md h2 {
         font-family: 'Bowlby';
         font-size: 2em;
-        padding: 0 2em;
+        padding: 0 .75em;
         text-align: left;
         /* color:#ee3e41; */
-        font-size: 1.5em;
+        font-size: 1.25em;
     }
 
+    /*  Menu Individual Item Header  */
+    ion-label h2 {
+        /* color: firebrick; */
+    }
+
+    /*  Menu Item Description  */
     ion-label p {
         font-family: 'Skranji';
-        padding: 0 2em 0 3em;
+        padding: 0 1.375em;
         text-align: left;
     }
+    .item-md p {
+        font-size:.875em;
+    }
 
+    /*  Menu Item Picture  */
     .item-md [item-left] {
         max-width: 25%;
         border: 0;
         margin: 0;
     }
 
+    /*  Menu Item Price Button  */
     .item-md .item-button {
         padding: 0 0.6em;
         height: 25px;
         font-size: 1.2em;
         font-family: 'Skranji-bold';
-        color: #ee3e41;
+        color: #e31d38;
     }
-
     .button-outline-md {
         border: none;
     }
-
     .button-outline-md:hover:not(.disable-hover) {
         background-color: transparent;
-    }   
-
+    }  
+    
     
 
 }
